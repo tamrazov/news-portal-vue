@@ -35,6 +35,7 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      min-height: 500px;
     }
   
     .posts-list {

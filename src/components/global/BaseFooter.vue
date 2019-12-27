@@ -17,7 +17,7 @@
     .footer {
       padding: 50px 0;
       margin: 50px 0 0 0;
-      background-color: teal;
+      background-color: #152c3d;
       color: #fff;
     }
     .container-footer {

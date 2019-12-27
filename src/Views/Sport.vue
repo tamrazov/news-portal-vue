@@ -1,17 +1,12 @@
 <template>
-  <div class="container container-sport">
-    <div class="left-section">
-      <div v-for="user in users" class="left-section-button">
-        {{ user }}
+    <div class="container container-sport">
+      <div class=" row posts-list">
+        <div v-for="post in postsUser">
+          {{ post.id }}
+          {{ msg }}
+        </div>
       </div>
-    </div>
-    <div class="posts-list">
-      <div v-for="post in postsSport" class="post-preview">
-        <h2> {{post.title}} </h2>
-        <p> {{post.body}} </p>
-      </div>
-    </div>
-  </div>
+    </div>  
 </template>
 
 <script>
@@ -19,8 +14,15 @@ import { mapGetters, mapActions } from 'vuex';
 
 export default {
   name: 'sport',
+  props: {
+    msg: String
+  },
+  methods: {
+  },
   computed:{
-    ...mapGetters(['postsSport','users'])
+    postsUser() {
+     return this.$store.getters.postsUser(1)
+    }
   } 
 }
 </script>
@@ -29,29 +31,16 @@ export default {
   .container-sport {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
+    background-color: #fff;
+    width: auto;
+    min-height: 500px;
   }
 
   .posts-list {
     display: flex;
     flex-direction: column;
-    width: 80%;
-  }
-
-  .left-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    background-color: burlywood;
-    width: 20%;
-  }
-
-  .left-section-button {
-    display: flex;
-    flex-direction: row;
-    border: 1px solid black;
-    margin: 10px;
-    padding: 5px;
+    width: 70%;
   }
 
   .post-preview {
@@ -59,5 +48,9 @@ export default {
     flex-direction: column;
     border: 1px black solid;
     margin: 10px; 
+  }
+
+  .asd {
+    display: flex;
   }
 </style>

@@ -4,6 +4,7 @@
       <div v-for="user in users" class="left-section-button">
         {{ user }}
       </div>
+      <button> console </button>
     </div>
     <div class="posts-list">
       <div v-for="post in allPosts" class="post-preview">
@@ -15,19 +16,22 @@
 </template>
 
 <script>
-import { mapGetters, mapActions } from 'vuex';
+import { mapGetters } from 'vuex';
 
 export default {
   name: 'home',
-  computed: mapGetters(['allPosts','postsCount','users']),
-  methods: 
-    mapActions(['fetchPosts']),
+
+  computed: {
+    ...mapGetters(['allPosts','postsCount','users']),
+  },  
+
+  methods: {
+
+  },   
+   
   components: {
-  },
-  async mounted() {
-    this.fetchPosts(30);
+
   }
-  
 }
 </script>
 
@@ -36,6 +40,9 @@ export default {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #fff;
+    min-height: 500px;
+
   }
 
   .posts-list {
