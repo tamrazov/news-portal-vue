@@ -20,8 +20,6 @@
     components: {
       previewPost,
     },
-    computed:{
-    },
     mounted() {
       this.postsPolitics = this.$store.getters.postsUser(2);
     } 

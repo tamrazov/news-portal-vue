@@ -1,16 +1,6 @@
 <template>
   <div class="container container-contact">
-    <p>dsfsdfsd</p>
-    <p>dsfsdfsd</p>
-    <p>dsfsdfsd</p>
-    <p>dsfsdfsd</p>
-    <p>dsfsdfsd</p>
-    <p>dsfsdfsd</p>
-    <p>dsfsdfsd</p>
-    <p>dsfsdfsd</p>
-    <p>dsfsdfsd</p>
-    <p>dsfsdfsd</p>
-    <p>dsfsdfsd</p>
+    <a  href="https://github.com/aleksandrtamrazov"  > Me on github </a>
   </div>  
 </template>
 
@@ -28,7 +18,7 @@ export default {
   .container-contact {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: #fff;
     width: auto;
     min-height: 500px;

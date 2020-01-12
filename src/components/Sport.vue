@@ -20,8 +20,6 @@
     components: {
       previewPost,
     },
-    computed:{
-    },
     mounted() {
       this.postsSport = this.$store.getters.postsUser(1);
     } 

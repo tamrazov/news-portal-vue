@@ -9,7 +9,6 @@
   <script>
     export default {
       name: 'base-footer',
-  
     }
   </script>
   
@@ -19,8 +18,5 @@
       margin: 50px 0 0 0;
       background-color: #152c3d;
       color: #fff;
-    }
-    .container-footer {
-      
     }
   </style>

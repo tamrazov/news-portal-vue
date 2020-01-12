@@ -50,4 +50,5 @@ export default {
   .component-fade-enter, .component-fade-leave-to {
     opacity: 0;
   }
+  
 </style>

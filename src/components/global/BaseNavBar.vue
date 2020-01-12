@@ -25,10 +25,6 @@
     name: 'base-NavBar',
     props: {
       msg: String,
-    },
-    data() {
-      return {
-      }
     }
   }
 </script>
@@ -102,5 +98,4 @@
       border-radius: 5px;
       padding: 4px 10px;
    }
-
 </style>

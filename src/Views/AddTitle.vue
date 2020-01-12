@@ -47,17 +47,21 @@
     padding: 10px;
     min-height: 500px;
   }
+
   .body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
   .body-text {
     max-width: 70%;
     height: 70%;
   }
+
   .button-add-title {
     margin: 10px;
   }
+  
 </style>

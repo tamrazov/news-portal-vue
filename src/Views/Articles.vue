@@ -1,9 +1,6 @@
 <template>
     <div class="container container-sport">
       <div class="left-section">
-        <div>
-          
-        </div>
         <div v-for="user in users" class="left-section-button">
           {{ user }}
         </div>

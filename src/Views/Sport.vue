@@ -17,8 +17,6 @@ export default {
   props: {
     msg: String
   },
-  methods: {
-  },
   computed:{
     postsUser() {
      return this.$store.getters.postsUser(1)
@@ -50,7 +48,4 @@ export default {
     margin: 10px; 
   }
 
-  .asd {
-    display: flex;
-  }
 </style>

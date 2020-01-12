@@ -20,17 +20,8 @@ import { mapGetters } from 'vuex';
 
 export default {
   name: 'home',
-
   computed: {
     ...mapGetters(['allPosts','postsCount','users']),
-  },  
-
-  methods: {
-
-  },   
-   
-  components: {
-
   }
 }
 </script>
@@ -74,4 +65,5 @@ export default {
     border: 1px black solid;
     margin: 10px; 
   }
+
 </style>

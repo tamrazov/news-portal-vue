@@ -74,9 +74,6 @@
           loader.hide();
           this.$router.push('/')
         },1000);
-      },
-      onCancel() {
-        console.log('User cancelled the loader.')
       },   
       ...mapGetters(['getToken','getErrors'])
     }
@@ -97,4 +94,5 @@
     background-color: inherit;
     color: rgb(151, 35, 35);
   }
+  
 </style>
