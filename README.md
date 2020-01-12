@@ -1,10 +1,10 @@
 # Vue spa application
-> Hello everybody. My name is Aleksandr and I`m from Russia, Rostov-on-Don.
-> Im junior ~~frontend developer~~!
-> This is my pet project (news portal) on vue.js
-> My email: box-570@yandex.ru
-> My telegram: @Papi180
-> My [VK]
+> Hello everybody. My name is Aleksandr and I`m from Russia, Rostov-on-Don.  
+> Im junior ~~frontend developer~~!  
+> This is my pet project (news portal) on vue.js  
+> My email: box-570@yandex.ru  
+> My telegram: @Papi180  
+> My [VK]  
 ---
 > This is Single Page application. This spa was created to demonstrate a fully fledged fullstack application built with **Vue.js** including CRUD operations, authentication, routing, pagination, and more. I`m gone to great lengths to adhere to the **Vue.js** community **styleguides & best practices.**
 ---
