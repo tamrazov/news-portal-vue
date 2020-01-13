@@ -8,7 +8,7 @@
 ---
 > This is Single Page application. This spa was created to demonstrate a fully fledged fullstack application built with **Vue.js** including CRUD operations, authentication, routing, pagination, and more. I`m gone to great lengths to adhere to the **Vue.js** community **styleguides & best practices.**
 ---
-This is news portal. Posts from [Jsonplaceholder] and authentification from [Reqres].In this application you can see how I use the component system, router, store, authentification and many of my knowledge of this technology, however this project does not fully reflect my knowledge of all web programming. I would also like you to look at my other projects.
+> This is news portal. Posts from [Jsonplaceholder] and authentification from [Reqres].In this application you can see how I use the component system, router, store, authentification and many of my knowledge of this technology, however this project does not fully reflect my knowledge of all web programming. I would also like you to look at my other projects.
 ---
 ### In this project I used:
 * [Vue]
